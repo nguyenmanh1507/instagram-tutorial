@@ -3,7 +3,7 @@
  *   relay-compiler
  *
  * @providesModule ListPage_viewer.graphql
- * @generated SignedSource<<ac36088273f92808c2585b1168576cd5>>
+ * @generated SignedSource<<6e4857bd98b8baf663ba006f77c733d5>>
  * @flow
  * @nogrep
  */
@@ -41,6 +41,11 @@ const fragment /*: ConcreteFragment*/ = {
   },
   "name": "ListPage_viewer",
   "selections": [
+    {
+      "kind": "FragmentSpread",
+      "name": "Post_viewer",
+      "args": null
+    },
     {
       "kind": "LinkedField",
       "alias": "allPosts",

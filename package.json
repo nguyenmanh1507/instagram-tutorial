@@ -5,17 +5,16 @@
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-relay": "^1.0.0"
+    "react-relay": "^1.0.0",
+    "react-router": "2.8.1"
   },
   "devDependencies": {
-    "babel-plugin-relay": "^1.0.1",
-    "graphcool": "^1.0.1",
-    "relay-compiler": "dev",
     "autoprefixer": "7.1.0",
     "babel-core": "6.24.1",
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
     "babel-loader": "7.0.0",
+    "babel-plugin-relay": "^1.0.1",
     "babel-preset-react-app": "^3.0.0",
     "babel-runtime": "6.23.0",
     "case-sensitive-paths-webpack-plugin": "1.1.4",
@@ -32,6 +31,7 @@
     "extract-text-webpack-plugin": "2.1.0",
     "file-loader": "0.11.1",
     "fs-extra": "3.0.1",
+    "graphcool": "^1.0.1",
     "html-webpack-plugin": "2.28.0",
     "jest": "20.0.3",
     "object-assign": "4.1.1",
@@ -40,6 +40,7 @@
     "promise": "7.1.1",
     "react-dev-utils": "^3.0.0",
     "react-error-overlay": "^1.0.7",
+    "relay-compiler": "dev",
     "style-loader": "0.17.0",
     "sw-precache-webpack-plugin": "0.9.1",
     "url-loader": "0.5.8",
